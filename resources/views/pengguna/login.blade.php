@@ -32,7 +32,7 @@
   </div>
   <div class="form-group">
     <label>Password</label>
-    <input type="text" name="pswd" class="form-control" />
+    <input type="password" name="pswd" class="form-control" />
   </div>
   <div class="form-group">
     <button type="submit" class="btn btn-primary">Masuk</button>
