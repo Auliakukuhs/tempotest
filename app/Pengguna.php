@@ -9,11 +9,10 @@ class Pengguna extends Model
    protected $table = 'pengguna';
    protected $primaryKey = 'login';
    public $incrementing = false;
+   public $timestamps = false;
 
    protected $fillable = [
     'login', 'pswd', 'email', 'deskripsi'    
    ];
-
-   public $timestamps = false;
 
 }

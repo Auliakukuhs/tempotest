@@ -14,13 +14,11 @@
             </div>
         </div>
     </div>
-   
     @if ($message = Session::get('success'))
         <div class="alert alert-success">
             <p>{{ $message }}</p>
         </div>
     @endif
-   
     <table class="table table-striped table-responsive">
         <tr>
             <th>ID Users</th>
